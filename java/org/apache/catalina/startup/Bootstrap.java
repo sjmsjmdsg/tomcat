@@ -435,6 +435,7 @@ public final class Bootstrap {
      *
      * @param args Command line arguments to be processed
      */
+    // tomcat的启动入口
     public static void main(String args[]) {
 
         synchronized (daemonLock) {
